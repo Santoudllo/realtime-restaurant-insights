@@ -48,8 +48,7 @@ def main():
     api_client = BelibAPIClient(api_url)
 
     # Récupérer les données depuis l'API
-    data, total_records = api_client.fetch_data(limit=50)  # Exemple avec une limite de 50 enregistrements
-
+    data, total_records = api_client.fetch_data(limit=50)  
     if data:
         print(f"{len(data)} enregistrements récupérés avec succès depuis l'API.")
         if total_records is not None:
