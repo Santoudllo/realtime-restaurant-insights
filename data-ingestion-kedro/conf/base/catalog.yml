@@ -1,0 +1,7 @@
+# conf/base/catalog.yml
+raw_data:
+  type: MemoryDataset
+total_records:
+  type: MemoryDataset
+inserted_count:
+  type: MemoryDataset

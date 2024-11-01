@@ -1,2 +1,4 @@
 ENV/
 .env
+credentials.yml
+parameters.yml
