@@ -102,4 +102,3 @@ Ce projet vise à combiner les données de conformité sanitaire fournies par l'
 
 ---
 
-Ce projet permettra aux parties prenantes d'obtenir une vue d'ensemble riche et actionnable de la qualité sanitaire et de la satisfaction client dans le secteur de la restauration, contribuant à la transparence et à la sécurité des consommateurs.
