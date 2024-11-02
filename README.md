@@ -15,6 +15,9 @@ Ce projet vise à combiner les données de conformité sanitaire fournies par l'
 
 ## Architecture du Projet
 
+
+![alt text](image.png)
+
 ### Workflow et Schéma d'Architecture
 
 1. **Ingestion des Données de Contrôles Sanitaires (API Alim'confiance)** :
