@@ -9,7 +9,7 @@ Ce projet vise à combiner les données de conformité sanitaire fournies par l'
 
 ### Langage
 
-![Python](https://img.shields.io/badge/Python-3.11.5-blue?logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.10.12-blue?logo=python&logoColor=white)
 
 ### Frameworks et Outils de Développement
 
@@ -26,7 +26,7 @@ Ce projet vise à combiner les données de conformité sanitaire fournies par l'
 
 ![OpenAI API](https://img.shields.io/badge/OpenAI%20API-3.5-green?logo=openai&logoColor=white)
 
-### Bibliothèques de Données & Machine Learning
+### Bibliothèques de Données 
 
 ![Pandas](https://img.shields.io/badge/Pandas-1.5.2-brightgreen?logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-1.21.0-blue?logo=numpy&logoColor=white)
