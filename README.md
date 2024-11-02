@@ -5,10 +5,6 @@ Ce projet vise à combiner les données de conformité sanitaire fournies par l'
 
 ## Technologies Utilisées
 
-# Technologies Utilisées
-
-# Technologies Utilisées
-
 ### Langage
 
 ![Python](https://img.shields.io/badge/Python-3.10.12-blue?logo=python&logoColor=white)
