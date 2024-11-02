@@ -43,7 +43,7 @@ Ce projet vise à combiner les données de conformité sanitaire fournies par l'
 ![IPython](https://img.shields.io/badge/IPython-8.0.0-blue?logo=ipython&logoColor=white)
 
 ---
-Ces outils ont été utilisés pour le développement du projet Realtime Restaurant Insights, visant à ingérer, transformer, et analyser des données en temps réel pour obtenir des insights sur les avis clients de différents restaurants. Le traitement des données en temps réel est facilité par Kafka, tandis que l'analyse des sentiments est effectuée grâce à l'API d'OpenAI, et les données sont ensuite indexées et visualisées à l'aide d'Elasticsearch, MongoDB, et Kibana.
+Ces outils ont été utilisés pour le développement du projet Realtime Restaurant Insights, visant à ingérer, transformer, et analyser des données en temps réel pour obtenir des insights sur les avis clients de différents restaurants. Le traitement des données en temps réel est facilité par Kafka, tandis que l'analyse des sentiments est effectuée grâce à l'API d'OpenAI, et les données sont ensuite indexées et visualisées à l'aide d'Elasticsearch et Kibana.
 
 
 ## Architecture du Projet
