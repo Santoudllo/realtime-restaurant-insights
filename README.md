@@ -156,7 +156,7 @@ Mes cibles principales incluent :
 - **Quota Limité pour l'API d'OpenAI** 
 Une des principales difficultés rencontrées concernait l'utilisation de l'API d'OpenAI pour l'analyse des sentiments. L'accès à l'API est limité par un quota d'utilisation, ce qui a parfois restreint le traitement de grands volumes de données en temps réel. Ce quota a nécessité des ajustements dans la fréquence des appels API et une priorisation des avis clients à analyser, surtout en période de forte activité. En conséquence, une stratégie de gestion de quota a dû être mise en place, impliquant notamment la mise en cache des résultats et l'utilisation sélective de l'API pour les avis les plus pertinents.
 
-
+![alt text](image-1.png)
 
 ## Améliorations Futures
 
