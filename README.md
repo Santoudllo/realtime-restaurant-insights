@@ -118,8 +118,8 @@ Mes cibles principales incluent :
 
 1. **Cloner le dépôt :**
    ```bash
-   git clone https://github.com/keagnon/DetectionAnomalie.git
-   https://github.com/keagnon/DetectionAnomalie.git
+   git clone https://github.com/Santoudllo/realtime-restaurant-insights.git
+  cd realtime-restaurant-insights
    ```
 
 2. **Créer un environnement virtuel :**
@@ -138,19 +138,15 @@ Mes cibles principales incluent :
 4. **Configurer les variables d'environnement :**
    Créez un fichier `.env` et renseignez les informations de connexion MongoDB et Elasticsearch :
    ```env
-  MONGO_USERNAME="*****"
+MONGO_USERNAME="*****"
 MONGO_PASSWORD="*******"
 MONGO_DBNAME="*********"
 MONGO_URI="************"
 API_URL=https://dgal.opendatasoft.com/api/explore/v2.1/catalog/datasets/export_alimconfiance/records
-
-# Clé API OpenAI
 OPENAI_API_KEY="********"
-
-# Kafka Configuration
 KAFKA_BROKER=localhost:9092
 KAFKA_TOPIC="*******"
-
+ ```
 
 ### Sous-Projet : Ingestion et Préparation des Données
 
