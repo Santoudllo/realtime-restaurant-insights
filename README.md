@@ -136,16 +136,16 @@ Mes cibles principales incluent :
    ```
 
 **Configurer les variables d'environnement :**
-   Créez un fichier `.env` et renseignez les informations de connexion MongoDB et Elasticsearch :
+   Créez un fichier `.env` et renseignez les informations de connexion MongoDB , OPENAI , le topic kafka , le lien de l'api et Elasticsearch :
    ```env
-   MONGO_USERNAME=
-MONGO_PASSWORD=
-MONGO_DBNAME=
-MONGO_URI=
+MONGO_USERNAME="******"
+MONGO_PASSWORD="******"
+MONGO_DBNAME="*******"
+MONGO_URI="*********"
 API_URL=https://dgal.opendatasoft.com/api/explore/v2.1/catalog/datasets/export_alimconfiance/records
-OPENAI_API_KEY
-KAFKA_BROKER=localhost:9092
-KAFKA_TOPIC=my-topic
+OPENAI_API_KEY="*******"
+KAFKA_BROKER=localhost:9092"******"
+KAFKA_TOPIC="*******"
    ```
 
 ### Sous-Projet : Ingestion et Préparation des Données
