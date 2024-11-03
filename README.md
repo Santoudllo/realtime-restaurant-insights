@@ -114,6 +114,43 @@ Mes cibles principales incluent :
 
 ## Déroulement Technique du Projet
 
+### **Étapes d'installation :**
+
+1. **Cloner le dépôt :**
+   ```bash
+   git clone https://github.com/keagnon/DetectionAnomalie.git
+   https://github.com/keagnon/DetectionAnomalie.git
+   ```
+
+2. **Créer un environnement virtuel :**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Unix
+   # Ou
+   venv\Scripts\activate     # Windows
+   ```
+
+3. **Installer les dépendances :**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Configurer les variables d'environnement :**
+   Créez un fichier `.env` et renseignez les informations de connexion MongoDB et Elasticsearch :
+   ```env
+  MONGO_USERNAME="*****"
+MONGO_PASSWORD="*******"
+MONGO_DBNAME="*********"
+MONGO_URI="************"
+API_URL=https://dgal.opendatasoft.com/api/explore/v2.1/catalog/datasets/export_alimconfiance/records
+
+# Clé API OpenAI
+OPENAI_API_KEY="********"
+
+# Kafka Configuration
+KAFKA_BROKER=localhost:9092
+KAFKA_TOPIC="*******"
+
 
 ### Sous-Projet : Ingestion et Préparation des Données
 
@@ -124,6 +161,12 @@ Cette partie du projet est un sous-projet spécifique à l'ingestion et à la pr
 Ce pipeline collecte les données brutes à partir de l'API Alim'confiance, les transforme via des étapes de nettoyage et d'enrichissement, puis les stocke dans une base de données MongoDB. Le stockage dans MongoDB permet de centraliser les données transformées pour une utilisation ultérieure, facilitant ainsi les opérations d'analyse et de visualisation.
 
 ![alt text](image-4.png)
+
+### **Exécuter localement :**
+- **Exécuter tous les pipelines :**
+   ```bash
+   kedro run
+   ```
 
 #### Pipeline d'Ingestion des Avis Clients
 
