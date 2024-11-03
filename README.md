@@ -123,6 +123,8 @@ Cette partie du projet est un sous-projet spécifique à l'ingestion et à la pr
 
 Ce pipeline collecte les données brutes à partir de l'API Alim'confiance, les transforme via des étapes de nettoyage et d'enrichissement, puis les stocke dans une base de données MongoDB. Le stockage dans MongoDB permet de centraliser les données transformées pour une utilisation ultérieure, facilitant ainsi les opérations d'analyse et de visualisation.
 
+![alt text](image-4.png)
+
 #### Pipeline d'Ingestion des Avis Clients
 
 Ce pipeline charge les données à partir de Spark, les fusionne pour créer un ensemble de données cohérent, puis les stocke dans Elasticsearch. Le stockage dans Elasticsearch facilite l'indexation des données et leur visualisation ultérieure, en offrant une recherche rapide et efficace pour l'évaluation des avis clients.
@@ -200,6 +202,6 @@ Une des principales difficultés rencontrées concernait l'utilisation de l'API 
 ##  📊 Docs <a name="documentation"></a>
 j'ai documenté plusieurs étapes critiques du projet :
 
-**Airflow**  est utilisé pour orchestrer les pipelines de collecte de données via des DAGs. Un exemple de DAG est utilisé pour envoyer nos données de MongoDB vers Kafka. Ce script Airflow s'exécute toutes les 8 heures. Voici des images de notre DAG et de notre interface Airflow :
+**Airflow**  est utilisé pour orchestrer les pipelines de collecte de données via des DAGs. Un exemple de DAG est utilisé pour envoyer nos données de MongoDB vers Kafka. Ce script Airflow s'exécute toutes les 8 heures. Voici une images du  DAG :
 
 ![alt text](image-3.png)
