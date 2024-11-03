@@ -66,7 +66,57 @@ Mes cibles principales incluent :
 
 
 
-## Architecture du Projet
+## Architecture du Projet 
+
+(ENV) santoudllo@santoudllo-virtual-machine:~/Desktop/PROJETS/realtime-restaurant-insights$ tree -L 2
+.
+├── data
+│   └── kafka_messages.csv
+├── data-ingestion-kedro
+│   ├── conf
+│   ├── data
+│   ├── notebooks
+│   ├── pyproject.toml
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── session_store.db
+│   ├── src
+│   └── tests
+├── docs
+│   └── realtime_restaurant_insights_project_description.pdf.pdf
+├── ELK
+├── ENV
+│   ├── bin
+│   ├── etc
+│   ├── include
+│   ├── lib
+│   ├── lib64 -> lib
+│   ├── pyvenv.cfg
+│   └── share
+├── image-1.png
+├── image-2.png
+├── image-3.png
+├── image-4.png
+├── image.png
+├── kafka
+├── kedro-airflow
+│   ├── dags
+│   ├── docker-compose.yml
+│   ├── requirements.txt
+│   └── script
+├── notebook
+│   └── EDA.ipynb
+├── README.md
+├── script
+│   ├── getApi_Alim.py
+│   └── preprocessing.py
+├── sentiment_analysis_kafka
+│   ├── docker-compose.yml
+│   ├── requirements.txt
+│   └── sentiment_analysis.py
+└── spark
+    ├── kafka_to_spark.py
+    └── script
 
 
 ![alt text](image.png)
