@@ -68,7 +68,9 @@ Mes cibles principales incluent :
 
 ## Architecture du Projet 
 
-(ENV) santoudllo@santoudllo-virtual-machine:~/Desktop/PROJETS/realtime-restaurant-insights$ tree -L 2
+
+
+```
 .
 ├── data
 │   └── kafka_messages.csv
@@ -117,6 +119,8 @@ Mes cibles principales incluent :
 └── spark
     ├── kafka_to_spark.py
     └── script
+```
+
 
 
 ![alt text](image.png)
