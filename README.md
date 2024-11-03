@@ -70,7 +70,6 @@ Mes cibles principales incluent :
 
 
 
-```
 .
 ├── data
 │   └── kafka_messages.csv
@@ -87,6 +86,8 @@ Mes cibles principales incluent :
 ├── docs
 │   └── realtime_restaurant_insights_project_description.pdf.pdf
 ├── ELK
+│   ├── docker-compose.yml
+│   └── import_to_elasticsearch.py
 ├── ENV
 │   ├── bin
 │   ├── etc
@@ -262,6 +263,17 @@ Ce pipeline charge les données à partir de Spark, les fusionne pour créer un 
 - **Docker** : Conteneurisation des services (Kafka, Spark, Elasticsearch, Kibana) pour simplifier le déploiement et le scaling.
 - **Configurations** : Variables d’API et paramètres de stockage configurables via des fichiers `.env`.
 - **Automatisation** : Script de déploiement pour exécuter le pipeline complet.
+
+
+## Visualisation des Données avec Kibana
+
+Les données collectées et importées dans Elasticsearch  sont visualisées dans Kibana pour une analyse approfondie. Voici un aperçu de certaines visualisations créées pour explorer les avis clients et leurs sentiments.
+
+![alt text](image-6.png)
+
+![alt text](image-5.png)
+
+
 
 ##  📜 Conclusion <a name="conclusion"></a>
 
