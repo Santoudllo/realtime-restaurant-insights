@@ -68,8 +68,7 @@ Mes cibles principales incluent :
 
 ## Architecture du Projet 
 
-
-
+```
 .
 ├── data
 │   └── kafka_messages.csv
