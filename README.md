@@ -205,3 +205,12 @@ j'ai documenté plusieurs étapes critiques du projet :
 **Airflow**  est utilisé pour orchestrer les pipelines de collecte de données via des DAGs. Un exemple de DAG est utilisé pour envoyer nos données de MongoDB vers Kafka. Ce script Airflow s'exécute toutes les 8 heures. Voici une images du  DAG :
 
 ![alt text](image-3.png)
+
+## Contributeurs
+
+- Alimou DIALLO (@santoudllo): Data engineer -**alimousantou@gmail.com**
+
+
+## Licence
+
+Ce projet est sous licence MIT. N'hésitez pas à utiliser et modifier le code pour vos propres projets.
