@@ -166,3 +166,9 @@ Une des principales difficultés rencontrées concernait l'utilisation de l'API 
 
 ---
 
+##  📊 Docs <a name="documentation"></a>
+j'ai documenté plusieurs étapes critiques du projet :
+
+**Airflow**  est utilisé pour orchestrer les pipelines de collecte de données via des DAGs. Un exemple de DAG est utilisé pour envoyer nos données de MongoDB vers Kafka. Ce script Airflow s'exécute toutes les 8 heures. Voici des images de notre DAG et de notre interface Airflow :
+
+![alt text](image-3.png)
