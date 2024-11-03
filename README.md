@@ -1,28 +1,5 @@
 # Projet Intégré : Évaluation de la Qualité et de la Perception des Restaurants
 
-## Objectif du Projet
-Ce projet vise à combiner les données de conformité sanitaire fournies par l'API **Alim'confiance** avec l'analyse des sentiments des **avis clients** pour offrir une vue d'ensemble de la qualité des établissements de restauration. Cette approche permettrait d'identifier des corrélations entre les évaluations sanitaires officielles et la perception des consommateurs, offrant ainsi une vision complète pour améliorer la sécurité et la satisfaction client.
-
-## 🎭 Mes cibles
-
-Mes cibles principales incluent :
-
-- **Restaurateurs et Propriétaires de Restaurants** qui souhaitent surveiller les avis des clients en temps réel pour améliorer la satisfaction client et la qualité du service.
-
-- **Gestionnaires de Chaînes de Restaurants** pour obtenir une vue d'ensemble des performances des établissements sur différents sites et agir rapidement sur les retours négatifs.
-
-- **Services Marketing** qui souhaitent personnaliser leurs campagnes en fonction des retours clients et cibler plus efficacement les publics.
-
-- **Plateformes de Critiques et de Réservations** qui souhaitent offrir une meilleure expérience utilisateur en filtrant et analysant les retours clients de manière plus précise.
-
-- **Consultants en Restauration** qui peuvent utiliser ces insights pour conseiller leurs clients sur l'amélioration de la qualité des services.
-
-- **Fournisseurs de Services de Livraison de Repas** qui souhaitent optimiser leur offre en fonction des avis clients sur les restaurants partenaires.
-
-- **Analystes de Données et Chercheurs** qui souhaitent étudier les tendances de consommation et les préférences des clients en matière de restauration.
-
-
-
 ## Technologies Utilisées
 
 ### Langage
@@ -64,6 +41,29 @@ Mes cibles principales incluent :
 
 ---
 Ces outils ont été utilisés pour le développement du projet Realtime Restaurant Insights, visant à ingérer, transformer, et analyser des données en temps réel pour obtenir des insights sur les avis clients de différents restaurants. Le traitement des données en temps réel est facilité par Kafka, tandis que l'analyse des sentiments est effectuée grâce à l'API d'OpenAI, et les données sont ensuite indexées et visualisées à l'aide d'Elasticsearch et Kibana.
+
+
+## Objectif du Projet
+Ce projet vise à combiner les données de conformité sanitaire fournies par l'API **Alim'confiance** avec l'analyse des sentiments des **avis clients** pour offrir une vue d'ensemble de la qualité des établissements de restauration. Cette approche permettrait d'identifier des corrélations entre les évaluations sanitaires officielles et la perception des consommateurs, offrant ainsi une vision complète pour améliorer la sécurité et la satisfaction client.
+
+## 🎭 Mes cibles
+
+Mes cibles principales incluent :
+
+- **Restaurateurs et Propriétaires de Restaurants** qui souhaitent surveiller les avis des clients en temps réel pour améliorer la satisfaction client et la qualité du service.
+
+- **Gestionnaires de Chaînes de Restaurants** pour obtenir une vue d'ensemble des performances des établissements sur différents sites et agir rapidement sur les retours négatifs.
+
+- **Services Marketing** qui souhaitent personnaliser leurs campagnes en fonction des retours clients et cibler plus efficacement les publics.
+
+- **Plateformes de Critiques et de Réservations** qui souhaitent offrir une meilleure expérience utilisateur en filtrant et analysant les retours clients de manière plus précise.
+
+- **Consultants en Restauration** qui peuvent utiliser ces insights pour conseiller leurs clients sur l'amélioration de la qualité des services.
+
+- **Fournisseurs de Services de Livraison de Repas** qui souhaitent optimiser leur offre en fonction des avis clients sur les restaurants partenaires.
+
+- **Analystes de Données et Chercheurs** qui souhaitent étudier les tendances de consommation et les préférences des clients en matière de restauration.
+
 
 
 ## Architecture du Projet
