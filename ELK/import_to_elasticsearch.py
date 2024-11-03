@@ -5,7 +5,7 @@ from elasticsearch.helpers import bulk
 # Configurer la connexion à Elasticsearch
 es = Elasticsearch("http://localhost:9200")
 
-# Chemin vers le fichier CSV
+
 csv_file_path = "../data/kafka_messages.csv"
 
 # Charger les données CSV
