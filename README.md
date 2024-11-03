@@ -114,6 +114,24 @@ Mes cibles principales incluent :
 
 ## Déroulement Technique du Projet
 
+
+### Sous-Projet : Ingestion et Préparation des Données
+
+Cette partie du projet est un sous-projet spécifique à l'ingestion et à la préparation des données, inclus dans notre projet global intitulé Évaluation de la Qualité et de la Perception des Restaurants. Deux pipelines Kedro ont été mis en place pour gérer ces données et les rendre disponibles pour l'analyse et la visualisation :
+
+#### Pipeline ETL
+
+Ce pipeline collecte les données brutes à partir de l'API Alim'confiance, les transforme via des étapes de nettoyage et d'enrichissement, puis les stocke dans une base de données MongoDB. Le stockage dans MongoDB permet de centraliser les données transformées pour une utilisation ultérieure, facilitant ainsi les opérations d'analyse et de visualisation.
+
+#### Pipeline d'Ingestion des Avis Clients
+
+Ce pipeline charge les données à partir de Spark, les fusionne pour créer un ensemble de données cohérent, puis les stocke dans Elasticsearch. Le stockage dans Elasticsearch facilite l'indexation des données et leur visualisation ultérieure, en offrant une recherche rapide et efficace pour l'évaluation des avis clients.
+
+
+
+
+
+
 ### Extraction et Ingestion
    - **Données de l’API Alim'confiance** : Extraction des données sanitaires avec Python et envoi dans Kafka.
    - **Avis clients** : Extraction et validation de conformité des données d'avis, envoi dans Kafka.
